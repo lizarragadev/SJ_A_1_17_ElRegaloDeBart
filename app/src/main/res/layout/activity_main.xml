@@ -18,14 +18,14 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/boton"
+            android:background="@drawable/boton_circulo"
             android:layout_marginTop="15dp"
             android:layout_marginRight="25dp"
             android:onClick="callate"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/boton"
+            android:background="@drawable/boton_circulo"
             android:layout_marginTop="15dp"
             android:layout_marginLeft="25dp"
             android:onClick="veteAlDiablo"/>
@@ -38,7 +38,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/boton"
+            android:background="@drawable/boton_circulo"
             android:layout_alignParentTop="true"
             android:layout_marginTop="15dp"
             android:onClick="idiota"/>

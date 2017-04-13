@@ -64,18 +64,32 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void chargeSoundPool() {
-
+        resIdiota = spIdiota.load(
+                getApplicationContext(),
+                R.raw.idiota, 1);
+        resCallate = spCallate.load(
+                getApplicationContext(),
+                R.raw.callate, 1);
+        resVeteAlDiablo = spVeteAlDiablo.load(
+                getApplicationContext(),
+                R.raw.vete_al_diablo, 1);
     }
 
     public void idiota(View v) {
-
+        if(resIdiota != 0){
+            spIdiota.play(resIdiota, 1, 1, 0, 0, 1);
+        }
     }
 
     public void callate(View v) {
-
+        if(resCallate != 0){
+            spCallate.play(resCallate, 1, 1, 0, 0, 1);
+        }
     }
 
     public void veteAlDiablo(View v) {
-
+        if(resVeteAlDiablo != 0){
+            spVeteAlDiablo.play(resVeteAlDiablo, 1, 1, 0, 0, 1);
+        }
     }
 }
