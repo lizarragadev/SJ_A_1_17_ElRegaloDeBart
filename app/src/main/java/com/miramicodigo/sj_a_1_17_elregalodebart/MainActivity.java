@@ -11,6 +11,13 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
+    /**
+     * @author Gustavo Lizarraga
+     * @version 1.0
+     * @date 13-04-17
+     *
+     * */
+
     private SoundPool spIdiota, spCallate, spVeteAlDiablo;
     private int resIdiota, resCallate, resVeteAlDiablo;
 
